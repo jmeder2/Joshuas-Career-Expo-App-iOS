@@ -1,6 +1,6 @@
 # Joshua's Career Expo App iOS
 
-This is a simple iOS application I have developed as an opportunity to show case to the recruiters there.
+My first iOS App. I took advantage of the Fall 2015 Career Expo at Louisiana State University as an idea to start exploring the concepts of iOS development. I ended up with a working app that I used as my own reference as I navigated through the Fall 2015 Career Expo. I also was able to impress the recruiters with my app!
 
 ######It contained the following views:
 
