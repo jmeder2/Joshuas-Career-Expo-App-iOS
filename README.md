@@ -6,6 +6,7 @@ This is a simple iOS application I have developed as an opportunity to show case
 
 * Companies 
   - A list of companies I wanted to visit, their logo, and their booth number
+  - **Note:** This view seem to have broken with the release of iOS 9
 * Booth Map
   - A pinch-able zoomable map of the Career Expo Floor that included booth numbers
 * Profile
