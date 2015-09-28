@@ -5,7 +5,7 @@ My first iOS App. I took advantage of the Fall 2015 Career Expo at Louisiana Sta
 ######It contained the following views:
 
 * Companies 
-  - A list of companies I wanted to visit, their logo, and their booth number
+  - A TableView list of companies I wanted to visit, their logo, and their booth number
   - **Note:** This view seem to have broken with the release of iOS 9
 * Booth Map
   - A pinch-able zoomable map of the Career Expo Floor that included booth numbers
