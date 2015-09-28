@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5664A691B9D3B13002C59C3 /* MSFT_logo_png.png in Resources */ = {isa = PBXBuildFile; fileRef = E5664A651B9D3B13002C59C3 /* MSFT_logo_png.png */; settings = {ASSET_TAGS = (); }; };
+		E5664A701B9D3E7A002C59C3 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = E5664A6E1B9D3E7A002C59C3 /* apple.png */; settings = {ASSET_TAGS = (); }; };
+		E5664A711B9D3E7A002C59C3 /* ibm.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E5664A6F1B9D3E7A002C59C3 /* ibm.jpeg */; settings = {ASSET_TAGS = (); }; };
+		E5664A731B9D3ECF002C59C3 /* ge.png in Resources */ = {isa = PBXBuildFile; fileRef = E5664A721B9D3ECF002C59C3 /* ge.png */; settings = {ASSET_TAGS = (); }; };
+		E5664A751B9D50FB002C59C3 /* Right-50.png in Resources */ = {isa = PBXBuildFile; fileRef = E5664A741B9D50FB002C59C3 /* Right-50.png */; settings = {ASSET_TAGS = (); }; };
+		E568D5B21B9CF7B700122D08 /* CompaniesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E568D5B11B9CF7B700122D08 /* CompaniesTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E56AFA6F1B9D29C700388DFB /* CompanyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56AFA6E1B9D29C700388DFB /* CompanyViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E56AFA711B9D2C2400388DFB /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = E56AFA701B9D2C2400388DFB /* placeholder.png */; settings = {ASSET_TAGS = (); }; };
+		E57E755D1B9E414E00A8EA9E /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57E755C1B9E414E00A8EA9E /* ProfileViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E57E75621B9E447D00A8EA9E /* Conference Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = E57E755F1B9E447D00A8EA9E /* Conference Filled-50.png */; settings = {ASSET_TAGS = (); }; };
+		E57E75641B9E447D00A8EA9E /* Treasure Map-50.png in Resources */ = {isa = PBXBuildFile; fileRef = E57E75611B9E447D00A8EA9E /* Treasure Map-50.png */; settings = {ASSET_TAGS = (); }; };
+		E57E75661B9E490400A8EA9E /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57E75651B9E490400A8EA9E /* CustomNavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		E57E75691B9E4CEA00A8EA9E /* Gender Neutral User Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = E57E75681B9E4CEA00A8EA9E /* Gender Neutral User Filled-50.png */; settings = {ASSET_TAGS = (); }; };
+		E57E756B1B9E4E4D00A8EA9E /* General Electric.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E57E756A1B9E4E4D00A8EA9E /* General Electric.jpg */; settings = {ASSET_TAGS = (); }; };
+		E57E756D1B9E6B4D00A8EA9E /* MapViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = E57E756C1B9E6B4D00A8EA9E /* MapViewController.h */; settings = {ASSET_TAGS = (); }; };
+		E57E756F1B9E6B8800A8EA9E /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57E756E1B9E6B8800A8EA9E /* MapViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E57E75711B9E6F4C00A8EA9E /* boothMap.png in Resources */ = {isa = PBXBuildFile; fileRef = E57E75701B9E6F4C00A8EA9E /* boothMap.png */; settings = {ASSET_TAGS = (); }; };
 		E599F1781B9CE2D200486A6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E599F1771B9CE2D200486A6A /* main.m */; };
 		E599F17B1B9CE2D200486A6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E599F17A1B9CE2D200486A6A /* AppDelegate.m */; };
 		E599F17E1B9CE2D200486A6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E599F17D1B9CE2D200486A6A /* ViewController.m */; };
@@ -27,6 +44,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E5664A651B9D3B13002C59C3 /* MSFT_logo_png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MSFT_logo_png.png; sourceTree = "<group>"; };
+		E5664A6E1B9D3E7A002C59C3 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		E5664A6F1B9D3E7A002C59C3 /* ibm.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ibm.jpeg; sourceTree = "<group>"; };
+		E5664A721B9D3ECF002C59C3 /* ge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ge.png; sourceTree = "<group>"; };
+		E5664A741B9D50FB002C59C3 /* Right-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Right-50.png"; sourceTree = "<group>"; };
+		E568D5B11B9CF7B700122D08 /* CompaniesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompaniesTableViewController.m; sourceTree = "<group>"; };
+		E568D5B31B9CF84A00122D08 /* CompaniesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompaniesTableViewController.h; sourceTree = "<group>"; };
+		E56AFA6D1B9D29C700388DFB /* CompanyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyViewController.h; sourceTree = "<group>"; };
+		E56AFA6E1B9D29C700388DFB /* CompanyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyViewController.m; sourceTree = "<group>"; };
+		E56AFA701B9D2C2400388DFB /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		E57E755C1B9E414E00A8EA9E /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		E57E755E1B9E416A00A8EA9E /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		E57E755F1B9E447D00A8EA9E /* Conference Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Conference Filled-50.png"; sourceTree = "<group>"; };
+		E57E75611B9E447D00A8EA9E /* Treasure Map-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Treasure Map-50.png"; sourceTree = "<group>"; };
+		E57E75651B9E490400A8EA9E /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
+		E57E75671B9E497D00A8EA9E /* CustomNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
+		E57E75681B9E4CEA00A8EA9E /* Gender Neutral User Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gender Neutral User Filled-50.png"; sourceTree = "<group>"; };
+		E57E756A1B9E4E4D00A8EA9E /* General Electric.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "General Electric.jpg"; sourceTree = "<group>"; };
+		E57E756C1B9E6B4D00A8EA9E /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		E57E756E1B9E6B8800A8EA9E /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		E57E75701B9E6F4C00A8EA9E /* boothMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boothMap.png; sourceTree = "<group>"; };
 		E599F1721B9CE2D200486A6A /* JoshuasCareerExpoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoshuasCareerExpoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E599F1761B9CE2D200486A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E599F1771B9CE2D200486A6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -83,7 +121,17 @@
 			children = (
 				E599F1791B9CE2D200486A6A /* AppDelegate.h */,
 				E599F17A1B9CE2D200486A6A /* AppDelegate.m */,
+				E57E756C1B9E6B4D00A8EA9E /* MapViewController.h */,
+				E57E756E1B9E6B8800A8EA9E /* MapViewController.m */,
+				E57E75651B9E490400A8EA9E /* CustomNavigationController.m */,
+				E57E75671B9E497D00A8EA9E /* CustomNavigationController.h */,
 				E599F17C1B9CE2D200486A6A /* ViewController.h */,
+				E56AFA6D1B9D29C700388DFB /* CompanyViewController.h */,
+				E56AFA6E1B9D29C700388DFB /* CompanyViewController.m */,
+				E568D5B11B9CF7B700122D08 /* CompaniesTableViewController.m */,
+				E568D5B31B9CF84A00122D08 /* CompaniesTableViewController.h */,
+				E57E755C1B9E414E00A8EA9E /* ProfileViewController.m */,
+				E57E755E1B9E416A00A8EA9E /* ProfileViewController.h */,
 				E599F17D1B9CE2D200486A6A /* ViewController.m */,
 				E599F17F1B9CE2D200486A6A /* Main.storyboard */,
 				E599F1821B9CE2D200486A6A /* Images.xcassets */,
@@ -96,6 +144,17 @@
 		E599F1751B9CE2D200486A6A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E57E75701B9E6F4C00A8EA9E /* boothMap.png */,
+				E57E756A1B9E4E4D00A8EA9E /* General Electric.jpg */,
+				E57E75681B9E4CEA00A8EA9E /* Gender Neutral User Filled-50.png */,
+				E57E755F1B9E447D00A8EA9E /* Conference Filled-50.png */,
+				E57E75611B9E447D00A8EA9E /* Treasure Map-50.png */,
+				E5664A741B9D50FB002C59C3 /* Right-50.png */,
+				E5664A721B9D3ECF002C59C3 /* ge.png */,
+				E5664A6E1B9D3E7A002C59C3 /* apple.png */,
+				E5664A6F1B9D3E7A002C59C3 /* ibm.jpeg */,
+				E5664A651B9D3B13002C59C3 /* MSFT_logo_png.png */,
+				E56AFA701B9D2C2400388DFB /* placeholder.png */,
 				E599F1761B9CE2D200486A6A /* Info.plist */,
 				E599F1771B9CE2D200486A6A /* main.m */,
 			);
@@ -163,11 +222,12 @@
 		E599F16A1B9CE2D200486A6A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Joshua Medernach";
 				TargetAttributes = {
 					E599F1711B9CE2D200486A6A = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 3V5FW365MA;
 					};
 					E599F18A1B9CE2D200486A6A = {
 						CreatedOnToolsVersion = 6.4;
@@ -200,8 +260,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				E599F1811B9CE2D200486A6A /* Main.storyboard in Resources */,
+				E56AFA711B9D2C2400388DFB /* placeholder.png in Resources */,
+				E5664A691B9D3B13002C59C3 /* MSFT_logo_png.png in Resources */,
+				E5664A731B9D3ECF002C59C3 /* ge.png in Resources */,
+				E57E756B1B9E4E4D00A8EA9E /* General Electric.jpg in Resources */,
+				E5664A701B9D3E7A002C59C3 /* apple.png in Resources */,
+				E5664A751B9D50FB002C59C3 /* Right-50.png in Resources */,
+				E5664A711B9D3E7A002C59C3 /* ibm.jpeg in Resources */,
 				E599F1861B9CE2D200486A6A /* LaunchScreen.xib in Resources */,
+				E57E75711B9E6F4C00A8EA9E /* boothMap.png in Resources */,
+				E57E75641B9E447D00A8EA9E /* Treasure Map-50.png in Resources */,
 				E599F1831B9CE2D200486A6A /* Images.xcassets in Resources */,
+				E57E75621B9E447D00A8EA9E /* Conference Filled-50.png in Resources */,
+				E57E75691B9E4CEA00A8EA9E /* Gender Neutral User Filled-50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +291,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E599F17E1B9CE2D200486A6A /* ViewController.m in Sources */,
+				E56AFA6F1B9D29C700388DFB /* CompanyViewController.m in Sources */,
 				E599F17B1B9CE2D200486A6A /* AppDelegate.m in Sources */,
+				E57E756F1B9E6B8800A8EA9E /* MapViewController.m in Sources */,
+				E57E756D1B9E6B4D00A8EA9E /* MapViewController.h in Sources */,
 				E599F1781B9CE2D200486A6A /* main.m in Sources */,
+				E57E755D1B9E414E00A8EA9E /* ProfileViewController.m in Sources */,
+				E57E75661B9E490400A8EA9E /* CustomNavigationController.m in Sources */,
+				E568D5B21B9CF7B700122D08 /* CompaniesTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +361,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -347,8 +425,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JoshuasCareerExpoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.medernach.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -357,8 +437,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JoshuasCareerExpoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.medernach.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -377,6 +459,7 @@
 				);
 				INFOPLIST_FILE = JoshuasCareerExpoAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.medernach.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JoshuasCareerExpoApp.app/JoshuasCareerExpoApp";
 			};
@@ -392,6 +475,7 @@
 				);
 				INFOPLIST_FILE = JoshuasCareerExpoAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.medernach.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JoshuasCareerExpoApp.app/JoshuasCareerExpoApp";
 			};
@@ -416,6 +500,7 @@
 				E599F1971B9CE2D200486A6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E599F1981B9CE2D200486A6A /* Build configuration list for PBXNativeTarget "JoshuasCareerExpoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +509,7 @@
 				E599F19A1B9CE2D200486A6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "CompaniesTableViewController.h"
+#import "CustomNavigationController.h"
+#import "ProfileViewController.h"
+#import "MapViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +21,40 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // Create Companies Table View Controller
+    CompaniesTableViewController *companiesTableViewController = [[CompaniesTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    // Wrap the Table View Controller with a Navigation Controller
+    CustomNavigationController *companiesNavController = [[CustomNavigationController alloc] initWithRootViewController:companiesTableViewController];
+    UIImage *companiesImageTabIcon = [UIImage imageNamed:@"Conference Filled-50"];
+    companiesNavController.tabBarItem.image = [companiesNavController imageWithImage:companiesImageTabIcon scaledToSize:CGSizeMake(25,25)];
+    
+    // Create Map View Controller
+    MapViewController *mapViewController = [[MapViewController alloc] init];
+    mapViewController.mapImageFile = @"boothMap";
+    // Wrap the Map View Controller with a Navigation Controller
+    CustomNavigationController *mapNavController = [[CustomNavigationController alloc] initWithRootViewController:mapViewController];
+    UIImage *mapImageTabIcon = [UIImage imageNamed:@"Treasure Map-50"];
+    mapNavController.tabBarItem.image = [mapNavController imageWithImage:mapImageTabIcon scaledToSize:CGSizeMake(25,25)];
+    
+    // Create Profile View Controller
+    ProfileViewController *profileViewController = [[ProfileViewController alloc] init];
+    // Wrap the Profile View Controller with a Navigation Controller
+    CustomNavigationController *profileNavController = [[CustomNavigationController alloc] initWithRootViewController:profileViewController];
+    UIImage *profilemageTabIcon = [UIImage imageNamed:@"Gender Neutral User Filled-50"];
+    profileNavController.tabBarItem.image = [profileNavController imageWithImage:profilemageTabIcon scaledToSize:CGSizeMake(25,25)];
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    [tabBarController setViewControllers:@[companiesNavController, mapNavController, profileNavController] animated:YES];
+    
+    
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = tabBarController;
+    [self.window makeKeyAndVisible];
+    
+    
+    
     return YES;
 }
 
